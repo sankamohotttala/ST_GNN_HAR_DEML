@@ -12,7 +12,7 @@
 
 ## Usage
 
-To use the datasets with ST-GCN code, change the 415-426 lines in the ./ST-GCN code/main.py file so that they contain the absolute paths for datasets. Use the visualization function if needed. 
+To use the datasets with ST-GCN code, change the 415-426 lines in the ./basic_code/main.py file so that they contain the absolute paths for datasets. Use the visualization function if needed. 
 
 ## Contact Details
 For any further clarification regarding the use of code/dataset, please reach via sanka.m@sliit.lk or divandyasm@gmail.com.
