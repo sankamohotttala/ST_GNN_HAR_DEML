@@ -1,0 +1,16 @@
+base_lr: 0.01
+batch_size: 4
+checkpoint_path: F:\Codes\joint attention\2022 - Journal\zST-GCN_CWBG_LOOP\checkpoints\ran_full\0_15_916_random_full_30_from_scratch_4_2023_02_23__23_57_43_False_0.01_[10,
+  20]
+gpus: null
+iteration: 916
+log_dir: results_randomSplit/full/0_15_916_random_full_30_from_scratch_4_2023_02_23__23_57_43_False_0.01_[10,
+  20]/log
+num_classes: 15
+num_epochs: 30
+save_freq: 2
+steps:
+- 10
+- 20
+test_data_path: F:\Codes\joint attention\2022\visualize_vattu_child\new_protocols\random_split\full\xsub\val_data
+train_data_path: F:\Codes\joint attention\2022\visualize_vattu_child\new_protocols\random_split\full\xsub\train_data

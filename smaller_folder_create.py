@@ -129,8 +129,8 @@ def perform_all_tasks(path1, path2):
     copy_highest_numbered_csv(path1, path2)
 
 # Example usage
-path1 = r'E:\SLIIT RA 2024\SICET\zST-GCN_CWBG_LOOPnew\results_cwbg_loop\cwbg_shared_acc'
-path2 = r'E:\SLIIT RA 2024\SICET\github_for_journal\ST_GNN_HAR_DEML\hyperparam_comparison\cross_subject\cwbg_shared'
+path1 = r'E:\SLIIT RA 2024\SICET\zST-GCN_CWBG_LOOPnew\results_randomSplit\shared'
+path2 = r'E:\SLIIT RA 2024\SICET\github_for_journal\ST_GNN_HAR_DEML\vanilla_cwbg\random\cwbg_shared'
 # Get all folders in path1
 for folder_name in os.listdir(path1):
     folder_path = os.path.join(path1, folder_name)

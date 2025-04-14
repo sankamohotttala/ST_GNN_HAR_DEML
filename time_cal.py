@@ -2,7 +2,7 @@ import statistics
 import os
 
 # Traverse through all folders and extract 'test time for sample' values from time.txt files
-base_path = r"E:\SLIIT RA 2024\SICET\github_for_journal\ST_GNN_HAR_DEML\vanilla_cwbg\cross_subject\cwbg_full"
+base_path = r"E:\SLIIT RA 2024\SICET\zST-GCN_CWBG_LOOPnew\results_randomSplit\full"
 sample_times = []
 
 for root, dirs, files in os.walk(base_path):
