@@ -1,6 +1,6 @@
-# Project Directory Overview
+# CWBG Vanilla Implementations
 
-This README provides a brief description of the files and directories included in this project.
+This README provides a brief description of the files and directories included in this project for vanilla CWBG implementations.
 
 ## 📁 Directories
 
@@ -8,10 +8,22 @@ This README provides a brief description of the files and directories included i
   Contains graph-related data structures, adjacency matrices, or utilities used for processing graph inputs.
 
 - **model/**  
-  Stores trained models, model architecture definitions, or saved checkpoints for inference or fine-tuning.
+  Contains STGCN model architecture used in vanilla implementations. Regularizer and weight initialization related parameters are given in these files.
 
 - **results/**  
-  Includes evaluation outputs, predictions, and performance metrics generated after model testing or validation.
+  Includes evaluation outputs for all CWBG vanilla protocols. Due to storage limitations only some of the results are given here.  
+  To access the full results, download the zip file from this link:  
+  [Google Drive - Full Results (~4GB)](https://drive.google.com/drive/folders/1STHC01cJjZuXfCfTa13R_mQxmx4pO6KB?usp=sharing)
+
+  This folder contains:
+  - `proto_cwbg`: Results related to prototype-based CWBG protocol.
+  - `random_cwbg`: Evaluation results using random splits for CWBG.
+  - `loocv_cwbg`: Outputs obtained via leave-one-out cross-validation for CWBG.
+
+- **saved_weights/**  
+  Includes the saved checkpoints for some models. Due to storage limitations, only a few of the final model weights are added here.  
+  To access all checkpoints for multiple protocols, use this link:  
+  [Google Drive - Model Checkpoints](https://drive.google.com/drive/folders/1GNotfE_50zuxGQ0d91AaXF2PoXXf0nzF?usp=sharing)
 
 ## 📄 Python Scripts
 
@@ -31,5 +43,3 @@ This README provides a brief description of the files and directories included i
   Contains custom utility functions used across scripts such as data loading, preprocessing, or helper functions.
 
 ---
-
-> 📝 Feel free to modify the descriptions if these files evolve or if more context becomes available.
