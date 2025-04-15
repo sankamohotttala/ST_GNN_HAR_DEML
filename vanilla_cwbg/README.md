@@ -16,9 +16,9 @@ This README provides a brief description of the files and directories included i
   [Google Drive - Full Results (~4GB)](https://drive.google.com/drive/folders/1STHC01cJjZuXfCfTa13R_mQxmx4pO6KB?usp=sharing)
 
   This folder contains:
-  - `proto_cwbg`: Results related to prototype-based CWBG protocol.
-  - `random_cwbg`: Evaluation results using random splits for CWBG.
-  - `loocv_cwbg`: Outputs obtained via leave-one-out cross-validation for CWBG.
+  - `cross_subject`: Results related to cross subject based CWBG vanilla implementations.
+  - `random`: Results related to random split based CWBG vanilla implementations.
+  - `loocv`: Results related to LOOCV based CWBG vanilla implementations.
 
 - **saved_weights/**  
   Includes the saved checkpoints for some models. Due to storage limitations, only a few of the final model weights are added here.  
