@@ -1,0 +1,32 @@
+epoch 29:
+person 1: 0.73333335
+person 2: 0.33333334
+person 3: 0.3939394
+person 4: 0.51724136
+person 5: 0.4827586
+person 6: 0.6666667
+person 7: 0.43333334
+person 8: 0.46666667
+person 9: 0.40625
+person 10: 0.6333333
+person 11: 0.6333333
+person 12: 0.8333333
+person 13: 0.6296296
+person 14: 0.5
+person 15: 0.36666667
+person 16: 0.42857143
+person 17: 0.78571427
+person 18: 0.6666667
+person 19: 0.65384614
+person 20: 0.82758623
+person 21: 0.5833333
+person 22: 0.46875
+person 23: 0.6333333
+person 24: 0.5769231
+person 25: 0.5
+person 26: 0.42857143
+person 27: 0.7037037
+person 28: 0.33333334
+person 29: 0.56666666
+person 30: 0.55172414
+number of experiments/files: 30

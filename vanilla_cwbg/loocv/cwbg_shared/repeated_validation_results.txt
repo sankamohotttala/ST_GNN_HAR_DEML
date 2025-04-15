@@ -1,0 +1,4 @@
+epoch 29:
+mean: 0.8113492166666666
+std: 0.11408401090133614
+number of experiments/files: 30

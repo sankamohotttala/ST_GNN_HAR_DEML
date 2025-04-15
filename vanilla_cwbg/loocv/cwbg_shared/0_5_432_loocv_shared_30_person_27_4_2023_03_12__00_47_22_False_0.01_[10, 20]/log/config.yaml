@@ -1,0 +1,16 @@
+base_lr: 0.01
+batch_size: 4
+checkpoint_path: F:\Codes\joint attention\2022 - Journal\zST-GCN_CWBG_LOOP\checkpoints\loocv_sim_1\0_5_432_loocv_shared_30_person_27_4_2023_03_12__00_47_22_False_0.01_[10,
+  20]
+gpus: null
+iteration: 432
+log_dir: results_cwbg_new_protocol/loocv_sim_1/0_5_432_loocv_shared_30_person_27_4_2023_03_12__00_47_22_False_0.01_[10,
+  20]/log
+num_classes: 5
+num_epochs: 30
+save_freq: 2
+steps:
+- 10
+- 20
+test_data_path: F:\Codes\joint attention\2022\visualize_vattu_child\new_protocols\for_LOOCV\shared\xsub\val_data
+train_data_path: F:\Codes\joint attention\2022\visualize_vattu_child\new_protocols\for_LOOCV\shared\xsub\train_data

@@ -1,0 +1,9 @@
+Train Distribution: {0: 88, 1: 88, 2: 84, 3: 85, 4: 87}
+Test Distribution: {0: 3, 1: 4, 2: 3, 3: 3, 4: 3}
+
+Train-normalized Distribution: {0: 20.37037037037037, 1: 20.37037037037037, 2: 19.444444444444446, 3: 19.675925925925927, 4: 20.13888888888889}
+Test-normalized Distribution: {0: 18.75, 1: 25.0, 2: 18.75, 3: 18.75, 4: 18.75}
+
+Test/(Train+Test) Precentage Distribution: {0: 3.296703296703297, 1: 4.3478260869565215, 2: 3.4482758620689653, 3: 3.4090909090909087, 4: 3.3333333333333335}
+
+Train Samples: 432    Test Samples: 16

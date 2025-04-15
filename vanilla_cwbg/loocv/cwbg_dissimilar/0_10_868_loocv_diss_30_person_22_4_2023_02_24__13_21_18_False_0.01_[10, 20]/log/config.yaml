@@ -1,0 +1,16 @@
+base_lr: 0.01
+batch_size: 4
+checkpoint_path: F:\Codes\joint attention\2022 - Journal\zST-GCN_CWBG_LOOP\checkpoints\loocv_di_2\0_10_868_loocv_diss_30_person_22_4_2023_02_24__13_21_18_False_0.01_[10,
+  20]
+gpus: null
+iteration: 868
+log_dir: results_cwbg_new_protocol/loocv_diss_2/0_10_868_loocv_diss_30_person_22_4_2023_02_24__13_21_18_False_0.01_[10,
+  20]/log
+num_classes: 10
+num_epochs: 30
+save_freq: 2
+steps:
+- 10
+- 20
+test_data_path: F:\Codes\joint attention\2022\visualize_vattu_child\new_protocols\for_LOOCV\dissimilar\experiment\val_data
+train_data_path: F:\Codes\joint attention\2022\visualize_vattu_child\new_protocols\for_LOOCV\dissimilar\experiment\train_data
