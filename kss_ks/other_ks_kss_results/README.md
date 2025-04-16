@@ -1,6 +1,6 @@
 # ks_kss_results
 
-This repository contains selected output files and visualizations from experiments conducted on the KS (Kinetics Skeleton) and KSS (Kinetics Skeleton Subset) datasets for child action recognition tasks. The focus is on model evaluations using different protocol settings, transfer learning configurations, and visual analytics of the results.
+This repository contains selected output files and visualizations from experiments conducted on the KS (Kinetics Subset) and KSS (Kinetics Skeleton Subset) datasets for child action recognition tasks. The focus is on model evaluations using different protocol settings, transfer learning configurations, and visual analytics of the results.
 
 ## Repository Structure
 
@@ -29,9 +29,9 @@ Each protocol folder contains:
 
 - **FT**, **FX**, **Prop**, **vanilla** — representing different model configurations:
   - `vanilla`: Baseline implementation
-  - `FT`: Fine-tuning based transfer learning (TFL)
+  - `FT`: Fine-tunining based transfer learning (TFL)
   - `FX`: Feature extraction-based TFL
-  - `Prop`: Propagation method-based TFL 
+  - `Prop`: Propagation method based TFL 
 
 Within each configuration folder, the following results are included:
 
@@ -44,31 +44,14 @@ Within each configuration folder, the following results are included:
 #### Files
 
 - **TFL results.docx**  
-  Contains summarized results of transfer learning experiments along with box-and-whisker plots.
+  Contains summarized results of transfer learning experiments along with box-and-wisker plots.
 
 - **visualizaation stuff.docx**  
   Includes skeleton visualizations and KS-KSS dataset distribution data.
 
 ### ks/
 
-This folder contains results for KS dataset-based implementations. It has two main folders:
-
-- `vanilla/`: Results from baseline models trained from scratch.
-- `TFL/`: Results from transfer learning-based experiments.
-
-Each of these contains four protocol subfolders:
-
-- `3 classes/`
-- `5 classes/`
-- `5 classes - balance/`
-- `8 classes/`
-
-Under each protocol, only the final used (best-performing) implementation results are included. Each result directory contains:
-
-- `images_independant/`: Confusion matrices for all epochs.
-- `log/`: Python experiment scripts, logs, dataset distributions, and hyperparameter settings.
-- `matplotlib_graphs/`: Loss and accuracy visualizations.
-- `save_values_csv/`: Softmax test-set probability values for most epochs in CSV format.
+sddsd sds d 
 
 ### Other Files
 
