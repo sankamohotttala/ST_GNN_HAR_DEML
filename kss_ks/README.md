@@ -70,13 +70,28 @@ Under each protocol, only the final used (best-performing) implementation result
 - `matplotlib_graphs/`: Loss and accuracy visualizations.
 - `save_values_csv/`: Softmax test-set probability values for most epochs in CSV format.
 
+### other_ks_kss_results/
+
+This folder contains sub-optimal or experimental results from various KS implementations, covering both vanilla and transfer learning approaches. Each subfolder represents a unique configuration or experimental run. The naming format of the folder corresponds to specific hyperparameter settings.
+
+- The structure of each folder includes:
+  - `images_independant/`
+  - `log/`
+  - `matplotlib_graphs/`
+  - `save_values_csv/`
+
+- Additional details related to each implementation can be found in the file **ks_hyperparameters_and_other_details.xlsx**. Use the folder name to locate the corresponding row in the spreadsheet.
+
+These results can be useful for understanding how different hyperparameter configurations affect performance, especially when evaluating in-the-wild scenarios involving child action recognition.
+
 ### Other Files
 
-- **[original]results (version 1).xlsx**  
-  Early version of the complete result compilation.
-
 - **ks_hyperparameters_and_other_details.xlsx**  
-  Provides dataset descriptions, protocol definitions, and hyperparameter configurations for both KS and KSS datasets.
+  Provides hyperparameter configurations and observation made by the researchers during the KS experiments. First column relates to the original experiment results folder in the server. Final experiments used in the Journal paper are mentioned as "journal" and they are highlighted in yellow colour. Results added in other_ks_kss_results folder are also mentioned as "added" and highlighted in orange colour.
+
+- **[original]results (version 1).xlsx**  
+  Original version of the ks_hyperparameters_and_other_details.xlsx file.
+
 
 ---
 
