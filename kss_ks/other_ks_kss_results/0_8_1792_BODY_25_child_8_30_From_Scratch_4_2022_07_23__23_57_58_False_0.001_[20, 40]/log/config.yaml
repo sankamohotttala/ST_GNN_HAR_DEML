@@ -1,0 +1,16 @@
+base_lr: 0.001
+batch_size: 4
+checkpoint_path: E:\checkpoints\0_8_1792_BODY_25_child_8_30_From_Scratch_4_2022_07_23__23_57_58_False_0.001_[20,
+  40]
+gpus: 1
+iteration: 1792
+log_dir: imagesAfterGotaGo/0_8_1792_BODY_25_child_8_30_From_Scratch_4_2022_07_23__23_57_58_False_0.001_[20,
+  40]/log
+num_classes: 8
+num_epochs: 50
+save_freq: 5
+steps:
+- 20
+- 40
+test_data_path: F:\Codes\joint attention\2022 - comparison paper\kineticsSTGCN_code\data\st-gcn-processed-data\data\Kinetics\8_classes_25_allChild\val_data
+train_data_path: F:\Codes\joint attention\2022 - comparison paper\kineticsSTGCN_code\data\st-gcn-processed-data\data\Kinetics\8_classes_25_allChild\train_data

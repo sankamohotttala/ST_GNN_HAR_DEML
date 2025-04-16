@@ -1,0 +1,15 @@
+base_lr: 0.1
+batch_size: 4
+checkpoint_path: checkpoints/Class3_1_BODY_25
+gpus: 1
+iteration: 76
+log_dir: images_new/3_3_76_BODY_25_child_3_30_y_x_4_2022_07_24__14_19_32_False_0.1_[15,
+  25]/log
+num_classes: 3
+num_epochs: 1
+save_freq: 5
+steps:
+- 15
+- 25
+test_data_path: F:\Codes\joint attention\2022 - comparison paper\kineticsSTGCN_code\data\st-gcn-processed-data\data\Kinetics\3_class_25_child\val_data
+train_data_path: F:\Codes\joint attention\2022 - comparison paper\kineticsSTGCN_code\data\st-gcn-processed-data\data\Kinetics\3_class_25_child\train_data
