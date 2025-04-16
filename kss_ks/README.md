@@ -1,6 +1,6 @@
 # ks_kss_results
 
-This repository contains selected output files and visualizations from experiments conducted on the KS (Kinetics Skeleton) and KSS (Kinetics Skeleton Subset) datasets for human action recognition tasks. The focus is on model evaluations using different protocol settings, transfer learning configurations, and visual analytics of the results.
+This repository contains selected output files and visualizations from experiments conducted on the KS (Kinetics Subset) and KSS (Kinetics Skeleton Subset) datasets for child action recognition tasks. The focus is on model evaluations using different protocol settings, transfer learning configurations, and visual analytics of the results.
 
 ## Repository Structure
 
@@ -18,6 +18,8 @@ This repository contains selected output files and visualizations from experimen
 
 This folder includes KSS dataset-based implementation results. Only selected outputs are provided here. The folder contains subfolders for each experimental protocol:
 
+#### Folders
+
 - `3 class/`
 - `5 - balanced class/`
 - `5 - unbalanced class/`
@@ -27,25 +29,29 @@ Each protocol folder contains:
 
 - **FT**, **FX**, **Prop**, **vanilla** — representing different model configurations:
   - `vanilla`: Baseline implementation
-  - `FT`: Fine-tuned models
-  - `FX`: Feature extraction-based transfer learning
-  - `Prop`: Proposed model variants
+  - `FT`: Fine-tunining based transfer learning (TFL)
+  - `FX`: Feature extraction-based TFL
+  - `Prop`: Propagation method based TFL 
 
 Within each configuration folder, the following results are included:
 
-- Training **loss and accuracy plots**
+- **Training loss and accuracy plots**
 - **Epoch-wise accuracy values**
 - **Confusion matrices**
 - **Dataset distribution plots**
 - **CSV files** with final test dataset softmax probability values
 
-### Summary Files
+#### Files
 
 - **TFL results.docx**  
-  Contains summarized results of transfer learning experiments.
+  Contains summarized results of transfer learning experiments along with box-and-wisker plots.
 
 - **visualizaation stuff.docx**  
-  Includes skeleton visualizations and box-and-whisker plots for softmax-based output distributions.
+  Includes skeleton visualizations and KS-KSS dataset distribution data.
+
+### ks/
+
+sddsd sds d 
 
 ### Other Files
 
