@@ -1,0 +1,401 @@
+class_name,accuracy
+front raises 134,0.86
+surfing crowd 336,0.854166667
+presenting weather forecast 254,0.82
+deadlifting 88,0.816326531
+pull ups 255,0.74
+country line dancing 75,0.72
+juggling balls 169,0.693877551
+snatch weight lifting 318,0.693877551
+crawling baby 77,0.68
+clean and jerk 59,0.632653061
+riding mechanical bull 270,0.632653061
+hammer throw 148,0.62
+riding or walking with horse 273,0.604166667
+golf driving 142,0.58
+passing American football (in game) 208,0.58
+filling eyebrows 126,0.571428571
+shearing sheep 294,0.571428571
+push up 260,0.5625
+skipping rope 311,0.56
+golf putting 143,0.551020408
+spinning poi 326,0.551020408
+skiing slalom 310,0.54
+playing tennis 246,0.530612245
+dribbling basketball 99,0.52
+news anchoring 202,0.52
+swimming backstroke 339,0.52
+arm wrestling 6,0.510204082
+playing squash or racquetball 245,0.5
+pole vault 253,0.5
+tai chi 346,0.5
+tapping pen 351,0.489795918
+hopscotch 156,0.48
+playing cello 223,0.48
+squat 330,0.48
+throwing axe 356,0.48
+massaging back 193,0.469387755
+playing accordion 217,0.469387755
+capoeira 43,0.46
+marching 192,0.46
+roller skating 280,0.46
+skateboarding 306,0.46
+throwing discus 358,0.46
+gymnastics tumbling 147,0.448979592
+zumba 399,0.444444444
+juggling soccer ball 171,0.44
+lunge 183,0.44
+sled dog racing 315,0.44
+sign language interpreting 303,0.4375
+bench pressing 19,0.42
+hurling (sport) 161,0.42
+long jump 182,0.42
+swimming butterfly stroke 341,0.42
+tango dancing 348,0.42
+belly dancing 18,0.408163265
+jumpstyle dancing 173,0.408163265
+playing drums 230,0.408163265
+playing poker 242,0.408163265
+salsa dancing 283,0.408163265
+ice skating 164,0.4
+shaking head 289,0.4
+carrying baby 44,0.395833333
+running on treadmill 281,0.395833333
+cheerleading 55,0.387755102
+chopping wood 56,0.387755102
+krumping 179,0.387755102
+playing ice hockey 235,0.387755102
+dying hair 108,0.382978723
+frying vegetables 135,0.38
+high jump 151,0.38
+hitting baseball 153,0.38
+javelin throw 166,0.38
+jumping into pool 172,0.38
+playing bass guitar 221,0.38
+playing clarinet 225,0.38
+riding camel 268,0.38
+vault 376,0.38
+washing feet 380,0.38
+air drumming 1,0.367346939
+bouncing on trampoline 30,0.36
+breakdancing 34,0.36
+climbing a rope 66,0.36
+golf chipping 141,0.36
+hurdling 160,0.36
+playing harp 234,0.36
+shot put 298,0.36
+side kick 302,0.36
+blowing out candles 27,0.346938776
+headbanging 149,0.346938776
+tap dancing 349,0.346938776
+testifying 354,0.346938776
+triple jump 367,0.346938776
+using segway 375,0.346938776
+yoga 398,0.346938776
+dining 91,0.34
+giving or receiving award 140,0.34
+jetskiing 167,0.34
+playing didgeridoo 229,0.34
+playing kickball 237,0.34
+punching bag 258,0.34
+situp 305,0.34
+skydiving 312,0.34
+snowkiting 323,0.34
+tobogganing 360,0.34
+tying tie 370,0.34
+playing volleyball 251,0.333333333
+riding a bike 267,0.333333333
+surfing water 337,0.333333333
+eating spaghetti 116,0.326530612
+contact juggling 69,0.32
+juggling fire 170,0.32
+playing guitar 232,0.32
+ski jumping 307,0.32
+bowling 31,0.306122449
+diving cliff 93,0.306122449
+hula hooping 159,0.306122449
+shuffling cards 301,0.306122449
+shaving head 292,0.3
+stretching leg 334,0.3
+swinging legs 343,0.3
+trimming or shaving beard 365,0.3
+windsurfing 393,0.3
+springboard diving 329,0.291666667
+grooming horse 146,0.285714286
+skiing (not slalom or crosscountry) 308,0.285714286
+slacklining 313,0.285714286
+archery 5,0.28
+celebrating 51,0.28
+jogging 168,0.28
+playing badminton 218,0.28
+riding elephant 269,0.28
+riding unicycle 275,0.28
+scuba diving 286,0.28
+dancing macarena 87,0.265306122
+playing harmonica 233,0.265306122
+riding mountain bike 271,0.265306122
+bartending 15,0.26
+dancing ballet 84,0.26
+finger snapping 127,0.26
+making bed 186,0.26
+playing piano 241,0.26
+dunking basketball 107,0.25
+shooting goal (soccer) 297,0.244897959
+walking the dog 378,0.244897959
+busking 41,0.24
+cartwheeling 45,0.24
+kicking field goal 174,0.24
+petting cat 213,0.24
+playing ukulele 249,0.24
+riding scooter 274,0.24
+skiing crosscountry 309,0.24
+swimming breast stroke 340,0.24
+exercising arm 119,0.224489796
+using computer 373,0.224489796
+auctioning 9,0.22
+biking through snow 22,0.22
+hockey stop 154,0.22
+playing saxophone 244,0.22
+playing xylophone 252,0.22
+pumping fist 256,0.22
+pushing cart 262,0.22
+stretching arm 333,0.22
+tying knot (not on a tie) 369,0.22
+parkour 207,0.208333333
+beatboxing 16,0.204081633
+driving tractor 104,0.204081633
+punching person (boxing) 259,0.204081633
+abseiling 0,0.2
+canoeing or kayaking 42,0.2
+playing paintball 240,0.2
+rock climbing 278,0.2
+strumming guitar 335,0.2
+waiting in line 377,0.2
+dancing gangnam style 86,0.1875
+feeding fish 124,0.183673469
+motorcycling 199,0.183673469
+playing cricket 227,0.183673469
+snowmobiling 324,0.183673469
+water skiing 383,0.183673469
+building shed 39,0.18
+bungee jumping 40,0.18
+paragliding 205,0.18
+playing organ 239,0.18
+playing recorder 243,0.18
+playing violin 250,0.18
+pushing car 261,0.18
+robot dancing 277,0.18
+tapping guitar 350,0.18
+tasting beer 352,0.18
+training dog 363,0.18
+washing dishes 379,0.18
+drop kicking 105,0.170212766
+bending back 20,0.166666667
+driving car 103,0.166666667
+milking cow 197,0.166666667
+extinguishing fire 121,0.163265306
+picking fruit 214,0.163265306
+swinging on something 344,0.163265306
+arranging flowers 7,0.16
+disc golfing 92,0.16
+knitting 178,0.16
+riding mule 272,0.16
+sanding floor 284,0.16
+scrambling eggs 285,0.16
+singing 304,0.16
+snorkeling 321,0.16
+trapezing 364,0.16
+wrestling 395,0.16
+writing 396,0.16
+kissing 176,0.152173913
+clapping 57,0.145833333
+hoverboarding 157,0.145833333
+ironing 165,0.145833333
+gargling 137,0.142857143
+playing trombone 247,0.142857143
+smoking 316,0.142857143
+brushing teeth 37,0.14
+ice climbing 162,0.14
+playing bagpipes 219,0.14
+somersaulting 325,0.14
+exercising with an exercise ball 120,0.125
+balloon blowing 12,0.12244898
+braiding hair 32,0.12244898
+cleaning floor 60,0.12244898
+dancing charleston 85,0.12244898
+flipping pancake 129,0.12244898
+sailing 282,0.12244898
+blasting sand 23,0.12
+blowing glass 24,0.12
+climbing ladder 67,0.12
+doing aerobics 95,0.12
+flying kite 130,0.12
+playing flute 231,0.12
+shooting basketball 296,0.12
+tasting food 353,0.12
+ice fishing 163,0.104166667
+breading or breadcrumbing 33,0.102040816
+curling hair 80,0.102040816
+folding napkins 132,0.102040816
+passing American football (not in game) 209,0.102040816
+petting animal (not cat) 212,0.102040816
+planting trees 215,0.102040816
+playing trumpet 248,0.102040816
+sword fighting 345,0.102040816
+wrapping present 394,0.102040816
+answering questions 2,0.1
+applauding 3,0.1
+brushing hair 36,0.1
+building cabinet 38,0.1
+catching or throwing frisbee 49,0.1
+clay pottery making 58,0.1
+dodgeball 94,0.1
+egg hunting 118,0.1
+headbutting 150,0.1
+making snowman 189,0.1
+mowing lawn 201,0.1
+parasailing 206,0.1
+playing cymbals 228,0.1
+pushing wheelchair 263,0.1
+shoveling snow 299,0.1
+sweeping floor 338,0.1
+tossing coin 361,0.1
+waxing eyebrows 388,0.1
+welding 391,0.1
+snowboarding 322,0.085106383
+cracking neck 76,0.083333333
+laughing 180,0.083333333
+getting a haircut 138,0.081632653
+hugging 158,0.081632653
+massaging legs 195,0.081632653
+bandaging 13,0.08
+blowing nose 26,0.08
+bobsledding 28,0.08
+catching or throwing softball 50,0.08
+checking tires 54,0.08
+cleaning windows 65,0.08
+climbing tree 68,0.08
+eating cake 110,0.08
+eating ice cream 115,0.08
+feeding birds 123,0.08
+feeding goats 125,0.08
+kicking soccer ball 175,0.08
+making pizza 188,0.08
+opening present 204,0.08
+playing chess 224,0.08
+throwing ball 357,0.08
+tossing salad 362,0.08
+whistling 392,0.08
+cooking on campfire 72,0.0625
+pumping gas 257,0.0625
+crying 79,0.06122449
+decorating the christmas tree 89,0.06122449
+folding clothes 131,0.06122449
+garbage collecting 136,0.06122449
+setting table 287,0.06122449
+texting 355,0.06122449
+unboxing 371,0.06122449
+applying cream 4,0.06
+cleaning toilet 64,0.06
+cooking chicken 70,0.06
+doing laundry 96,0.06
+drinking beer 101,0.06
+kitesurfing 177,0.06
+rock scissors paper 279,0.06
+stomping grapes 332,0.06
+tying bow tie 368,0.06
+waxing legs 389,0.06
+carving pumpkin 46,0.041666667
+catching fish 47,0.041666667
+doing nails 97,0.041666667
+shaking hands 288,0.041666667
+blowing leaves 25,0.040816327
+drinking 100,0.040816327
+drinking shots 102,0.040816327
+eating burger 109,0.040816327
+faceplanting 122,0.040816327
+fixing hair 128,0.040816327
+laying bricks 181,0.040816327
+smoking hookah 317,0.040816327
+barbequing 14,0.04
+bookbinding 29,0.04
+catching or throwing baseball 48,0.04
+changing oil 52,0.04
+crossing river 78,0.04
+eating hotdog 114,0.04
+high kick 152,0.04
+holding snake 155,0.04
+moving furniture 200,0.04
+plastering 216,0.04
+playing cards 222,0.04
+playing controller 226,0.04
+shining shoes 295,0.04
+spraying 328,0.04
+tickling 359,0.04
+unloading truck 372,0.04
+water sliding 384,0.04
+waxing back 386,0.04
+brush painting 35,0.020833333
+eating carrots 111,0.020833333
+washing hair 381,0.020833333
+cleaning shoes 63,0.020408163
+counting money 74,0.020408163
+eating doughnuts 113,0.020408163
+folding paper 133,0.020408163
+getting a tattoo 139,0.020408163
+trimming trees 366,0.020408163
+using remote controller (not gaming) 374,0.020408163
+assembling computer 8,0.02
+bee keeping 17,0.02
+changing wheel 53,0.02
+cutting pineapple 82,0.02
+drumming fingers 106,0.02
+eating watermelon 117,0.02
+grinding meat 144,0.02
+grooming dog 145,0.02
+massaging person's head 196,0.02
+opening bottle 203,0.02
+reading book 264,0.02
+reading newspaper 265,0.02
+recording music 266,0.02
+sharpening pencil 291,0.02
+sneezing 319,0.02
+washing hands 382,0.02
+watering plants 385,0.02
+waxing chest 387,0.02
+baby waking up 10,0
+baking cookies 11,0
+bending metal 21,0
+cleaning gutters 61,0
+cleaning pool 62,0
+cooking egg 71,0
+cooking sausages 73,0
+cutting nails 81,0
+cutting watermelon 83,0
+digging 90,0
+drawing 98,0
+eating chips 112,0
+making a cake 184,0
+making a sandwich 185,0
+making jewelry 187,0
+making sushi 190,0
+making tea 191,0
+massaging feet 194,0
+mopping floor 198,0
+peeling apples 210,0
+peeling potatoes 211,0
+playing basketball 220,0
+playing keyboard 236,0
+playing monopoly 238,0
+ripping paper 276,0
+sharpening knives 290,0
+shaving legs 293,0
+shredding paper 300,0
+slapping 314,0
+sniffing 320,0
+spray painting 327,0
+sticking tongue out 331,0
+swing dancing 342,0
+taking a shower 347,0
+weaving basket 390,0
+yawning 397,0
