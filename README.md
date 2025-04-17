@@ -1,4 +1,4 @@
-# 🧠 ST_GNN_HAR_DEML
+# 🖼️ ST_GNN_HAR_DEML
 
 This repository contains TensorFlow-based **ST-GCN** code that can be used for **child action recognition**.  
 Pre-processed **CWBG datasets** are stored on Google Drive and can be accessed via the links provided below.

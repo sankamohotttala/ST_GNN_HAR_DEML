@@ -1,4 +1,4 @@
-# 🧠 ST-GNN HAR Confidence Analysis
+# 🖼️ ST-GNN HAR Confidence Analysis
 
 This repository contains code for analyzing **confidence values** in Human Activity Recognition (HAR) using **Spatial-Temporal Graph Neural Networks (ST-GNN)**.  
 The project focuses on analyzing and comparing different confidence calculation methods for skeleton-based activity recognition.
