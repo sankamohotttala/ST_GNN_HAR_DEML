@@ -1,0 +1,4 @@
+dissimilar  - F:\Codes\joint attention\2022 - Journal\zST-GCN_CWBG_LOOP\results_cwbg_loop\cwbg dissimilar\0_10_628_cwbg_dissimilar_30_from_scratch_4_2023_02_21__23_46_34_False_0.01_[10, 20]
+similar - F:\Codes\joint attention\2022 - Journal\zST-GCN_CWBG_LOOP\results_cwbg_loop\cwbg similar\0_10_612_cwbg_similar_30_from_scratch_4_2023_02_21__22_14_10_False_0.01_[10, 20]
+full - F:\Codes\joint attention\2022 - Journal\zST-GCN_CWBG_LOOP\results_cwbg_loop\cwbg full\0_15_924_cwbg_all_30_from_scratch_4_2023_02_21__20_50_44_False_0.01_[10, 20]
+shared - F:\Codes\joint attention\2022 - Journal\zST-GCN_CWBG_LOOP\results_cwbg_loop\cwbg_shared_exdec\0_5_312_cwbg_shared_30_from_scratch_4_2023_02_22__10_45_01_False_0.01_[10, 20]
