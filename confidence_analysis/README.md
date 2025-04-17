@@ -89,6 +89,30 @@ It implements multiple approaches for confidence calculation and provides compre
 
 ---
 
+
+---
+
+### 🗂️ Results_save Folder
+
+The `Results_save/` directory contains final outputs generated from confidence analysis and classification experiments:
+
+#### 📊 Plots
+- `acc_400_all_labelOrder.png`, `acc_400_all_Sorted.png`, etc.  
+  → Accuracy plots sorted by label or performance, visualizing class-wise confidence and prediction patterns.
+
+- `tmp1.png`  
+  → Auxiliary or test visualization image used for debugging or ad hoc analysis.
+
+#### 📄 CSV Files
+- `results_acc_full_kinetics400_sorted.csv`  
+  → Final sorted accuracy/confidence results used for plotting or reporting.
+
+- `tmp.csv`, `tmp_average.csv`, `tmp_twoSkeleton.csv`  
+  → Temporary analysis results used for person-wise and joint-wise analysis. These support deeper exploratory evaluation and custom visualization.
+
+These outputs are essential for interpreting how well the model performs under different confidence estimation strategies, offering both numerical and visual insights.
+
+
 ## ▶️ Usage
 
 ### 🔹 Basic Confidence Analysis
