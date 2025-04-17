@@ -1,137 +1,38 @@
-# ST-GNN HAR Confidence Analysis
+# 🧠 ST_GNN_HAR_DEML
 
-This repository contains code for analyzing confidence values in Human Activity Recognition (HAR) using Spatial-Temporal Graph Neural Networks (ST-GNN). The project focuses on analyzing and comparing different confidence calculation methods for skeleton-based activity recognition.
+This repository contains TensorFlow-based **ST-GCN** code that can be used for **child action recognition**.  
+Pre-processed **CWBG datasets** are stored on Google Drive and can be accessed via the links provided below.
 
-## Project Overview
+---
 
-This project analyzes confidence values and classification accuracy for human activity recognition using skeleton data. It implements multiple approaches for confidence calculation and provides comprehensive visualization tools for result analysis.
+## 📂 Datasets
 
-### Key Features
+1. 📁 [CWBG Full Dataset](https://drive.google.com/drive/folders/1T9kgWkrNlrPm_eKbY3NfBXsGVLDdBPt-?usp=share_link)  
+   Contains the full dataset with 1312 skeleton sequences in 15 classes.
 
-- Multiple confidence calculation methods:
-  - Default confidence analysis
-  - Frame-based confidence analysis
-  - Joint-based confidence analysis
-  - Per-person skeleton analysis
-- Visualization tools for:
-  - Accuracy comparison
-  - Confidence distribution
-  - Skeleton visualization with confidence values
-- Support for both single-person and two-person skeleton analysis
-- Comprehensive data analysis and result comparison
+2. 📁 [CWBG Dissimilar Dataset](https://drive.google.com/drive/folders/1TwUnf5G_4IhLIh04Q1vb-JGPt1G5Hfby?usp=share_link)  
+   Contains the CWBG Dissimilar subset with 10 classes.
 
-## Directory Structure
+3. 📁 [CWBG Similar Dataset](https://drive.google.com/drive/folders/1RUymfektG0jyCCpRr5Mdw-eWt2Pcxzzt?usp=share_link)  
+   Contains the CWBG Similar subset with 10 classes.
 
-```
-.
-├── CSV/                           # Raw data and classification results
-├── Data/                         # Input skeleton data
-├── Results_save/                 # Generated results and visualizations
-├── results_exp/                  # Experimental results
-├── dataAnalysis_*.py            # Analysis scripts
-├── boxPlot*.py                  # Visualization scripts
-└── labelnamesIndex.txt          # Class label mappings
-```
+4. 📁 [CWBG Shared Dataset](https://drive.google.com/drive/folders/1RMKR7cxV7BTCTjUTBSTAhxwXscBHeFFB?usp=share_link)  
+   Contains the CWBG Shared subset with 5 classes.
 
-## Key Components
+---
 
-### Data Analysis Scripts
+## ⚙️ Usage
 
-1. **dataAnalysis_confidenceDefault.py**
-   - Main implementation of default confidence calculation
-   - Processes skeleton data and computes confidence values
-   - Generates basic confidence analysis results
+To use the datasets with the ST-GCN code:
 
-2. **dataAnalysis_confidenceCompJoint.py**
-   - Joint-based confidence analysis
-   - Supports both single-person and two-person skeleton analysis
-   - Generates detailed joint-wise confidence values
+- Modify **lines 415–426** in the `./basic_code/main.py` file to include the **absolute paths** to your datasets.
+- Use the **visualization function** if needed.
 
-3. **dataAnalysis_confidencePerPersonDef.py**
-   - Person-specific confidence analysis
-   - Analyzes confidence values per person in multi-person activities
+---
 
-### Visualization Scripts
+## 📬 Contact
 
-1. **boxPlotAllApproaches.py**
-   - Generates box plots comparing different confidence calculation methods
-   - Supports visualization of:
-     - All data
-     - Correctly classified cases
-     - Misclassified cases
-     - Method comparisons
+For any further clarification regarding the use of the code or datasets, please reach out to:
 
-2. **confidencePlot.py**
-   - Visualizes confidence distributions
-   - Generates confidence-related plots
-
-### Data Files
-
-- **CSV Files**: Contains classification results and confidence values
-- **labelnamesIndex.txt**: Maps class indices to activity names
-- Generated visualizations stored in Results_save/
-
-## Usage
-
-### Basic Confidence Analysis
-```python
-python dataAnalysis_confidenceDefault.py
-```
-
-### Joint-based Analysis
-```python
-python dataAnalysis_confidenceCompJoint.py
-```
-
-### Visualization
-```python
-python boxPlotAllApproaches.py
-```
-
-## Data Format
-
-### Input Data
-- Skeleton data in NumPy format (.npy)
-- Label data in Pickle format (.pkl)
-- CSV files containing classification results
-
-### Output Data
-- CSV files with confidence analysis results
-- PNG files with visualizations
-- Detailed analysis reports
-
-## Results
-
-The analysis generates several types of results:
-
-1. **Confidence Values**
-   - Per-class confidence distributions
-   - Joint-wise confidence analysis
-   - Person-specific confidence values
-
-2. **Visualizations**
-   - Box plots comparing different methods
-   - Accuracy distributions
-   - Skeleton visualizations with confidence mapping
-
-3. **Analysis Reports**
-   - Classification accuracy per class
-   - Confidence-accuracy correlations
-   - Method comparison statistics
-
-## Dependencies
-
-- Python 3.x
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Pickle
-
-## Contributing
-
-Feel free to submit issues and enhancement requests.
-
-## License
-
-[Specify your license here]
+- ✉️ sanka.m@sliit.lk  
+- ✉️ divandyasm@gmail.com
