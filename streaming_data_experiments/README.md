@@ -30,13 +30,11 @@ This subfolder contains a complete set of files for a single video sample, servi
 
 ## Demo
 
-Click the image below to watch a demo of one of the experiments:
+Below are sample visualizations of the three output formats, each linked to its corresponding demo video:
 
-[![Watch the demo anonymized](https://github.com/sankamohotttala/ST_GNN_HAR_DEML/blob/main/streaming_data_experiments/readme_file_related/anon.png)](https://drive.google.com/file/d/12jPlWvXsjNDDQUTewCoEvTwwtdCHCjWo/view)
-
-[![Watch the demo skeleton](https://github.com/sankamohotttala/ST_GNN_HAR_DEML/blob/main/streaming_data_experiments/readme_file_related/skeleton.png)](https://drive.google.com/file/d/1_cEoggHf_zQnJEbngJBPZLHAjcd6v9lqview)
-
-[![Watch the demo RGB](https://github.com/sankamohotttala/ST_GNN_HAR_DEML/blob/main/streaming_data_experiments/readme_file_related/rgb.png)](https://drive.google.com/file/d/1rOPZoFL48aC-fPglSslSFQ1eVSx4ijPG/view)
+| Anonymized Output | Skeleton Output | RGB Output |
+|:-----------------:|:---------------:|:----------:|
+| [![Anonymized](https://github.com/sankamohotttala/ST_GNN_HAR_DEML/blob/main/streaming_data_experiments/readme_file_related/anon.png)](https://drive.google.com/file/d/12jPlWvXsjNDDQUTewCoEvTwwtdCHCjWo/view) | [![Skeleton](https://github.com/sankamohotttala/ST_GNN_HAR_DEML/blob/main/streaming_data_experiments/readme_file_related/skeleton.png)](https://drive.google.com/file/d/1_cEoggHf_zQnJEbngJBPZLHAjcd6v9lq/view) | [![RGB](https://github.com/sankamohotttala/ST_GNN_HAR_DEML/blob/main/streaming_data_experiments/readme_file_related/rgb.png)](https://drive.google.com/file/d/1rOPZoFL48aC-fPglSslSFQ1eVSx4ijPG/view) |
 
 
 ## How to Use
