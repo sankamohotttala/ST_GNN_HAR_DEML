@@ -32,7 +32,12 @@ This subfolder contains a complete set of files for a single video sample, servi
 
 Click the image below to watch a demo of one of the experiments:
 
-[![Watch the demo](https://github.com/sankamohotttala/ST_GNN_HAR_DEML/blob/main/streaming_data_experiments/thineeshya_gp01_Clapping_0220250418-023836.png)](https://drive.google.com/file/d/1RygsaYG35ujVMmeMeJHJfbGFkEaXWdjN/view)
+[![Watch the demo anonymized](https://github.com/sankamohotttala/ST_GNN_HAR_DEML/blob/main/streaming_data_experiments/readme_file_related/anon.png)](https://drive.google.com/file/d/12jPlWvXsjNDDQUTewCoEvTwwtdCHCjWo/view)
+
+[![Watch the demo skeleton](https://github.com/sankamohotttala/ST_GNN_HAR_DEML/blob/main/streaming_data_experiments/readme_file_related/skeleton.png)](https://drive.google.com/file/d/1_cEoggHf_zQnJEbngJBPZLHAjcd6v9lqview)
+
+[![Watch the demo RGB](http://github.com/sankamohotttala/ST_GNN_HAR_DEML/blob/main/streaming_data_experiments/readme_file_related/rgb.png)](https://drive.google.com/file/d/1rOPZoFL48aC-fPglSslSFQ1eVSx4ijPG/view)
+
 
 ## How to Use
 
@@ -40,10 +45,5 @@ Click the image below to watch a demo of one of the experiments:
 - **Examine Prediction Outputs**: Use the `.csv` files to review softmax classification results and inference time details.
 - **Explore Visualizations**: Analyze `.png` plots to understand model confidence across time and performance breakdown across modules.
 - **Assess System Efficiency**: Refer to the `_inference_time_plot.png` files to evaluate which modules are most time-consuming during inference.
-
-## Additional Notes
-
-- Ensure you have compatible software to view `.avi`, `.mp4`, `.csv`, and `.png` files.
-- For a detailed description of the methodology, training pipeline, and implementation details, please refer to the [main project documentation](https://github.com/sankamohotttala/ST_GNN_HAR_DEML).
 
 ---
