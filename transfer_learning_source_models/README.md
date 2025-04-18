@@ -54,9 +54,9 @@ This document helps correlate each folder name with the specific hyperparameter 
   - NTU-120
   - NTU-60
   - NTU-5
-  - NTU-44b
-  - NTU-44w
-  - NTU-60fra
+  - NTU-44-B
+  - NTU-44-W
+  - NTU-60-FRA
 
   Model weights and results for other dataset splits or protocols can be shared upon request. Some of these are already available on Google Drive.
 
