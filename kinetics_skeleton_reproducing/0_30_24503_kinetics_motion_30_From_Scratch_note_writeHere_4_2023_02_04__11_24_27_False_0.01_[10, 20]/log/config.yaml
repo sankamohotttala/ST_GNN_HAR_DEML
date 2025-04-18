@@ -1,0 +1,16 @@
+base_lr: 0.01
+batch_size: 4
+checkpoint_path: E:\checkpoints_largePreTrain\0_30_24503_kinetics_motion_30_From_Scratch_note_writeHere_4_2023_02_04__11_24_27_False_0.01_[10,
+  20]
+gpus: null
+iteration: 24503
+log_dir: imagesNew/0_30_24503_kinetics_motion_30_From_Scratch_note_writeHere_4_2023_02_04__11_24_27_False_0.01_[10,
+  20]/log
+num_classes: 30
+num_epochs: 30
+save_freq: 2
+steps:
+- 10
+- 20
+test_data_path: F:\Codes\joint attention\2022 - Journal\kinetics-skeleton subsets\kinetics-motion\val_data
+train_data_path: F:\Codes\joint attention\2022 - Journal\kinetics-skeleton subsets\kinetics-motion\train_data

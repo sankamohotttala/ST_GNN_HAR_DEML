@@ -1,0 +1,1 @@
+Test accuracy for epoch 0: 0.0055151796

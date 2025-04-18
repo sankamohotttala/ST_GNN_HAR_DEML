@@ -1,0 +1,16 @@
+base_lr: 0.1
+batch_size: 8
+checkpoint_path: E:\checkpoints_largePreTrain\0_392_19401_subset_sample_392_30_From_Scratch_note_writeHere_8_2023_01_31__18_14_18_False_0.1_[10,
+  20]
+gpus: null
+iteration: 19401
+log_dir: imagesNew/0_392_19401_subset_sample_392_30_From_Scratch_note_writeHere_8_2023_01_31__18_14_18_False_0.1_[10,
+  20]/log
+num_classes: 392
+num_epochs: 30
+save_freq: 1
+steps:
+- 10
+- 20
+test_data_path: F:\Codes\joint attention\2022 - Journal\kinetics-skeleton subsets\test\val_data
+train_data_path: F:\Codes\joint attention\2022 - Journal\kinetics-skeleton subsets\test\val_data

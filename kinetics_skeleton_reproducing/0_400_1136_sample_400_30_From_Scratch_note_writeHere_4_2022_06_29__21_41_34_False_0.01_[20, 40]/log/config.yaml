@@ -1,0 +1,18 @@
+base_lr: 0.01
+batch_size: 4
+checkpoint_path: imagesNew/0_400_1136_sample_400_30_From_Scratch_note_writeHere_4_2022_06_29__21_41_34_False_0.01_[20,
+  40]\checkPoints
+gpus: 1
+iteration: 1136
+log_dir: imagesNew/0_400_1136_sample_400_30_From_Scratch_note_writeHere_4_2022_06_29__21_41_34_False_0.01_[20,
+  40]/log
+num_classes: 400
+num_epochs: 50
+save_freq: 1
+steps:
+- 20
+- 40
+test_data_path: F:\Codes\joint attention\2022 - comparison paper\kineticsSTGCN_code\data\st-gcn-processed-data\data\Kinetics\For
+  TFL\400_classes_sample\val_data
+train_data_path: F:\Codes\joint attention\2022 - comparison paper\kineticsSTGCN_code\data\st-gcn-processed-data\data\Kinetics\For
+  TFL\400_classes_sample\train_data
