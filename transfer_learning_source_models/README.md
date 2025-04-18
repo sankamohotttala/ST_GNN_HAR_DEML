@@ -48,7 +48,8 @@ Each subfolder (e.g., `ntu120`, `ntu60`, `ntu5`, etc.) contains files and direct
 
 To access the complete set of results, including all checkpoints, confusion matrices, and event files for most source models, please refer to the following Google Drive link:
 
-[Google Drive - Full Results and Checkpoints](https://drive.google.com/file/d/1nPKInY4DbphUAsB_X7yCAVFzoJ-BoetX/view?usp=drive_link)
+[Google Drive - Full Results and Checkpoints](https://drive.google.com/drive/folders/1fY6NaHDik52XW6KmZnEX1bOOWsQjqQBs?usp=sharing)
+
 
 This link includes:
 - All checkpoints for most source models
