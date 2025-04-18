@@ -36,7 +36,7 @@ Click the image below to watch a demo of one of the experiments:
 
 [![Watch the demo skeleton](https://github.com/sankamohotttala/ST_GNN_HAR_DEML/blob/main/streaming_data_experiments/readme_file_related/skeleton.png)](https://drive.google.com/file/d/1_cEoggHf_zQnJEbngJBPZLHAjcd6v9lqview)
 
-[![Watch the demo RGB](http://github.com/sankamohotttala/ST_GNN_HAR_DEML/blob/main/streaming_data_experiments/readme_file_related/rgb.png)](https://drive.google.com/file/d/1rOPZoFL48aC-fPglSslSFQ1eVSx4ijPG/view)
+[![Watch the demo RGB](https://github.com/sankamohotttala/ST_GNN_HAR_DEML/blob/main/streaming_data_experiments/readme_file_related/rgb.png)](https://drive.google.com/file/d/1rOPZoFL48aC-fPglSslSFQ1eVSx4ijPG/view)
 
 
 ## How to Use
