@@ -1,0 +1,19 @@
+Codes
+F:\Codes\joint attention\2022 Integratiom\Falling STGCN model\falling_stgcn
+
+[above contains model codes developed for HAR using the sliding window approach. It also contains the other plot/image creation related codes]
+[F:\Codes\joint attention\2022 Integratiom - this base folder was created several years ago when CAR model intergration was attempted with streaming data [real-time] - but that attempt was unsuccesful. Since CVIU reviewers asked for streaming data experiments, we restarted the attempt in the same folder]
+
+
+Results [not all]
+
+C:\Users\sanka\Documents\new_folder\New folder\results_rgb 
+C:\Users\sanka\Documents\new_folder\New folder\results
+C:\Users\sanka\Documents\new_folder\New folder\results_  [this is probably using resnet101 - suboptimal performance is probably because this wasn't the one used in training the model]
+
+F:\Codes\joint attention\2022 Integratiom\Falling STGCN model\falling_stgcn\output_videos\Full_test_NTU_2_csv_generated [initial results]
+
+
+model weights [not all]
+F:\Codes\joint attention\2022 Integratiom\Falling STGCN model\falling_stgcn\Models\sanka\attempt_20230112-232838
+
