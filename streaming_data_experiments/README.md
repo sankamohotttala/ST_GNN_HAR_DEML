@@ -44,4 +44,16 @@ Below are sample visualizations of the three output formats, each linked to its 
 - **Explore Visualizations**: Analyze `.png` plots to understand model confidence across time and performance breakdown across modules.
 - **Assess System Efficiency**: Refer to the `_inference_time_plot.png` files to evaluate which modules are most time-consuming during inference.
 
+## Summary Results: Inference Time Distributions
+
+The `summary_results_performance` folder contains aggregated performance insights across all samples. It includes:
+
+- **Box-and-whisker plots**: Show the distribution and spread of inference times for each processing module (e.g., detection, pose, tracking, action recognition).
+- **Histograms**: Visualize the frequency distribution of inference times for each individual module.
+- **Summary statistics**: Numerical summaries such as mean and standard deviation values are available in `statistics.txt`.
+
+Below is a preview of the summary content:
+
+![Summary Preview](https://github.com/sankamohotttala/ST_GNN_HAR_DEML/blob/main/streaming_data_experiments/summary_results_performance/summary_preview.png)
+
 ---
