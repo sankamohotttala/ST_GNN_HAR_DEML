@@ -1,0 +1,14 @@
+base_lr: 0.01
+batch_size: 4
+checkpoint_path: F:\Codes\joint attention\2022 - Journal\New TF and NTU-44  implementations\TFL_FX_FT_final\checkpoints\NEW_60
+gpus: null
+iteration: 628
+log_dir: results_loop/root2023_03_21__14_22_37/22_10_Diss_S3_TrialID_3_piecewise_0.01_4_2023_03_21__14_33_49/log
+num_classes: 10
+num_epochs: 30
+save_freq: 2
+steps:
+- 10
+- 20
+test_data_path: F:\Codes\joint attention\2022\visualize_vattu_child\save_directory_3\xsub\val_data
+train_data_path: F:\Codes\joint attention\2022\visualize_vattu_child\save_directory_3\xsub\train_data

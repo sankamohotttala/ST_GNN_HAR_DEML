@@ -1,0 +1,28 @@
+trial id: 2
+target_classes: 10
+source_cls: 44
+proto: S2
+lr: 0.01
+steps: [10, 20]
+optimizer: SGD
+batch_size: 4
+epochs: 30
+S: 10
+E: 11
+FPS: 30
+schedular: expo
+decay: 0.92
+loss_func: category_cross
+label_smooth_val: 0.1
+scale: 2.0
+mode: fan_out
+dist: truncated_normal
+reg: l2
+reg_valu: 0.001
+epochs_fc: 3
+/44_10_Simi_S2_TrialID_2_expo_0.01_4_2023_03_22__00_33_11
+F:\Codes\joint attention\2022\visualize_vattu_child\save_directory_2\xsub\train_data
+F:\Codes\joint attention\2022\visualize_vattu_child\save_directory_2\xsub\val_data
+True
+4
+F:\Codes\joint attention\2022 - Journal\New TF and NTU-44  implementations\Create weights\save_weights\NTU 44\ntu44

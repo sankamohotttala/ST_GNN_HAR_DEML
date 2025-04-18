@@ -1,0 +1,26 @@
+trial id: 4
+target_classes: 5
+source_cls: 44
+proto: S4
+lr: 0.01
+steps: [10, 20]
+optimizer: SGD
+batch_size: 4
+epochs: 30
+STGCN_OUT: 10
+FPS: 30
+schedular: piecewise
+decay: 0.9
+loss_func: category_cross
+label_smooth_val: 0.1
+scale: 2.0
+mode: fan_out
+dist: truncated_normal
+reg: l2
+reg_valu: 0.001
+/44_5_Shar_S4_TrialID_4_piecewise_0.01_4_2023_03_21__16_30_45
+F:\Codes\joint attention\2022\visualize_vattu_child\save_directory_4\xsub\train_data
+F:\Codes\joint attention\2022\visualize_vattu_child\save_directory_4\xsub\val_data
+True
+4
+F:\Codes\joint attention\2022 - Journal\New TF and NTU-44  implementations\Create weights\save_weights\NTU 44 - worst\ntu44worst

@@ -1,0 +1,27 @@
+trial id: 6
+target_classes: 10
+source_cls: 44
+proto: S2
+lr: 0.01
+steps: [10, 20]
+optimizer: SGD
+batch_size: 4
+epochs: 30
+stgcn_out: 9
+FPS: 30
+schedular: piecewise
+decay: 0.92
+loss_func: category_cross
+label_smooth_val: 0.3
+scale: 1.0
+mode: fan_out
+dist: truncated_normal
+reg: l2
+reg_valu: 0.01
+epochs_fc: 3
+/44_10_Simi_S2_TrialID_6_piecewise_0.01_4_2023_03_23__17_49_18
+F:\Codes\joint attention\2022\visualize_vattu_child\save_directory_2\xsub\train_data
+F:\Codes\joint attention\2022\visualize_vattu_child\save_directory_2\xsub\val_data
+True
+6
+F:\Codes\joint attention\2022 - Journal\New TF and NTU-44  implementations\Create weights\save_weights\NTU 44 10FPS\ntu44_10fps
