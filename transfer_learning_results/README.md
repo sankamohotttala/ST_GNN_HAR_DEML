@@ -1,6 +1,6 @@
-# Transfer Learning Results for ST-GNN HAR
+# Transfer Learning Results for ST-GCN based CAR
 
-This directory contains experiment results and supporting code related to transfer learning (TFL) applied to child action recognition using the ST-GCN (Spatio-Temporal Graph Convolutional Network) model. The experiments are based on various fine-tuning configurations using the CWBG dataset.
+This directory contains experiment results and supporting code related to transfer learning (TFL) applied to child action recognition (CAR) using the ST-GCN (Spatio-Temporal Graph Convolutional Network) model. The experiments are based on various fine-tuning configurations using the CWBG dataset.
 
 ## Folder Structure
 
