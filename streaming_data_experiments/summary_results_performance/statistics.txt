@@ -1,0 +1,161 @@
+Overall Statistics:
+Mean:
+num_people         2.274098
+inference_time    86.969025
+detection_time     7.162854
+pose_time         33.149680
+track_time         0.655289
+action_time       31.841234
+
+Standard Deviation:
+num_people         1.392890
+inference_time    26.192362
+detection_time     0.648019
+pose_time          8.034045
+track_time         0.640808
+action_time       17.681691
+
+
+Statistics for num_people = 2:
+Mean:
+num_people         2.000000
+inference_time    83.827950
+detection_time     7.202622
+pose_time         32.643264
+track_time         0.665502
+action_time       29.765857
+
+Standard Deviation:
+num_people        0.000000
+inference_time    8.383117
+detection_time    0.747240
+pose_time         3.310648
+track_time        0.628487
+action_time       3.882379
+
+
+Statistics for num_people = 3:
+Mean:
+num_people          3.000000
+inference_time    103.987365
+detection_time      7.270463
+pose_time          38.353970
+track_time          0.793062
+action_time        42.856207
+
+Standard Deviation:
+num_people        0.000000
+inference_time    9.231045
+detection_time    0.696588
+pose_time         3.449849
+track_time        0.622974
+action_time       6.441674
+
+
+Statistics for num_people = 4:
+Mean:
+num_people          4.000000
+inference_time    118.721732
+detection_time      7.132277
+pose_time          40.929883
+track_time          0.877193
+action_time        54.299480
+
+Standard Deviation:
+num_people         0.000000
+inference_time    10.941320
+detection_time     0.513349
+pose_time          3.303450
+track_time         0.626527
+action_time        9.939062
+
+
+Statistics for num_people = 5:
+Mean:
+num_people          5.000000
+inference_time    122.345435
+detection_time      7.038849
+pose_time          44.803658
+track_time          1.024861
+action_time        55.057873
+
+Standard Deviation:
+num_people         0.000000
+inference_time    13.353620
+detection_time     0.437048
+pose_time          3.057860
+track_time         0.650992
+action_time       12.492968
+
+
+Statistics for num_people = 6:
+Mean:
+num_people          6.000000
+inference_time    132.983908
+detection_time      6.939097
+pose_time          49.143827
+track_time          1.051046
+action_time        61.222716
+
+Standard Deviation:
+num_people        0.000000
+inference_time    8.784427
+detection_time    0.463913
+pose_time         3.021616
+track_time        0.658733
+action_time       7.456613
+
+
+Statistics for num_people = 7:
+Mean:
+num_people          7.000000
+inference_time    175.923595
+detection_time      7.198828
+pose_time          59.451712
+track_time          1.458894
+action_time        91.431979
+
+Standard Deviation:
+num_people         0.000000
+inference_time    18.676769
+detection_time     0.403863
+pose_time          3.586098
+track_time         0.638185
+action_time       17.364238
+
+
+Statistics for num_people = 8:
+Mean:
+num_people          8.000000
+inference_time    191.011190
+detection_time      8.000493
+pose_time          66.506624
+track_time          0.999928
+action_time        96.006989
+
+Standard Deviation:
+num_people        0.000000
+inference_time    7.074264
+detection_time    0.000169
+pose_time         0.697615
+track_time        0.000337
+action_time       0.009272
+
+
+Statistics for num_people = 1:
+Mean:
+num_people         1.000000
+inference_time    62.370081
+detection_time     7.103936
+pose_time         25.647590
+track_time         0.422252
+action_time       15.318509
+
+Standard Deviation:
+num_people        0.000000
+inference_time    4.589606
+detection_time    0.586766
+pose_time         2.777411
+track_time        0.551538
+action_time       1.598072
+
