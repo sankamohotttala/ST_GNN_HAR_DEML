@@ -54,6 +54,6 @@ The `summary_results_performance` folder contains aggregated performance insight
 
 Below is a preview of the summary content:
 
-![Summary Preview](https://github.com/sankamohotttala/ST_GNN_HAR_DEML/blob/main/streaming_data_experiments/summary_results_performance/summary_preview.png)
+![Summary Preview](https://github.com/sankamohotttala/ST_GNN_HAR_DEML/blob/main/streaming_data_experiments/summary_results_performance/all_module_times.png)
 
 ---
