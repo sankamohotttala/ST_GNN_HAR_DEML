@@ -1,0 +1,15 @@
+base_lr: 0.1
+batch_size: 4
+checkpoint_path: F:\Codes\joint attention\2022 - Journal\New TF and NTU-44  implementations\New_train_for_v1\checkpoints\2023_03_07__17_37_08
+gpus: null
+iteration: 23924
+log_dir: results/0_44_23924_ntu_44_new_2_10fps_30_forTF_4_2023_03_07__17_37_08_False_0.1_[15,
+  25]/log
+num_classes: 44
+num_epochs: 30
+save_freq: 2
+steps:
+- 15
+- 25
+test_data_path: F:\Codes\joint attention\2022\NTU_to_KinectV1\data_new_44_2_10fps\xsub\val_data
+train_data_path: F:\Codes\joint attention\2022\NTU_to_KinectV1\data_new_44_2_10fps\xsub\train_data

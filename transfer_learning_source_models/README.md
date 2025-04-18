@@ -1,3 +1,4 @@
+
 # Transfer Learning Source Models
 
 This directory contains source models and related experiment files for the transfer learning experiments described in our journal paper. The provided models are based on several splits of the NTU dataset, including NTU-120, NTU-60, NTU-5, NTU-44-B, NTU-44-W, and NTU-60-FRA.
@@ -30,6 +31,23 @@ Each subfolder (e.g., `ntu120`, `ntu60`, `ntu5`, etc.) contains files and direct
 - **save_values_csv/**  
   Directory with CSV files containing saved metric values (softmax probability etc.) for each epoch.
 
+## Additional Experiments: Alternative Hyperparameter Settings
+
+The folder `source_models_other_hyperparams` includes models trained using alternative (sub-optimal) hyperparameter settings. These experiments are intended to analyze how changes in learning rate, optimizer, batch size, training strategy, etc., affect model performance.
+
+The results from these experiments are useful for:
+- Comparing the effect of different hyperparameter combinations.
+- Understanding the sensitivity of the ST-GCN model to specific parameters.
+- Performing ablation studies.
+
+Each subfolder within this directory follows the same structure as the main source model folders, with logs, visualizations, confusion matrices, and saved metrics.
+Due to storage limitations only the main results are in these folders. To access full results, use the [Google Drive link (Full Results for other hyper-parameters)](https://drive.google.com/file/d/1HxafuxDxVJeATgVNSF1mhJBe554trRiw/view?usp=drive_link)
+
+Detailed descriptions of each of these experiments, including configurations and performance observations, are provided in the Excel file:
+📄 **`implem_details_ST-GCN.xlsx`**
+
+This document helps correlate each folder name with the specific hyperparameter setting used and summarizes the corresponding outcomes.
+
 ## Availability
 
 - This repository contains models and results only for the following NTU dataset splits:
@@ -50,11 +68,9 @@ To access the complete set of results, including all checkpoints, confusion matr
 
 [Google Drive - Full Results and Checkpoints](https://drive.google.com/drive/folders/1fY6NaHDik52XW6KmZnEX1bOOWsQjqQBs?usp=sharing)
 
-
 This link includes:
 - All checkpoints for most source models
 - Additional result files, including confusion matrices and event logs
-
 
 ---
 
@@ -64,4 +80,3 @@ This link includes:
 - For experiment-specific code files, refer to the `log` folder within each experiment results directory; all Python scripts used (with their final hyper-parameters) are stored there.
 
 ---
-

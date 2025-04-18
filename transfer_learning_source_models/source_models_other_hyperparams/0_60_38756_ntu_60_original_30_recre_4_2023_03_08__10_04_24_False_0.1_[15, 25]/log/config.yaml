@@ -1,0 +1,15 @@
+base_lr: 0.1
+batch_size: 4
+checkpoint_path: F:\Codes\joint attention\2022 - Journal\New TF and NTU-44  implementations\New_train_for_v1\checkpoints\2023_03_08__10_04_24
+gpus: null
+iteration: 38756
+log_dir: results/0_60_38756_ntu_60_original_30_recre_4_2023_03_08__10_04_24_False_0.1_[15,
+  25]/log
+num_classes: 60
+num_epochs: 30
+save_freq: 2
+steps:
+- 15
+- 25
+test_data_path: F:\Codes\joint attention\2022 - Journal\Pre process\original_ntu_60\xsub\val_data
+train_data_path: F:\Codes\joint attention\2022 - Journal\Pre process\original_ntu_60\xsub\train_data
