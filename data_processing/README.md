@@ -1,0 +1,1 @@
+NTU_to_KinectV1 - contains the codes for skeleton structure changing for each NTU-X protocol where x={5,22,44,44-W,44-B,60,120.....}

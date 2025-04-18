@@ -1,0 +1,13 @@
+base_lr: 0.1
+batch_size: 4
+checkpoint_path: checkpoints/NEW_5
+gpus: 1
+log_dir: logs/NEW_5
+num_classes: 5
+num_epochs: 30
+save_freq: 5
+steps:
+- 10
+- 40
+test_data_path: data/ntu/xsub/val_data
+train_data_path: data/ntu/xsub/train_data

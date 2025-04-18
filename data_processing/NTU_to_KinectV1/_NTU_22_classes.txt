@@ -1,0 +1,23 @@
+A1: pick up	A6
+A2: sit down	A8
+A3: clapping	A10	
+A4: put on jacket	A14
+A5: put on a hat/cap	A20
+A6: hopping	A26
+A7: jump up	A27
+A8: point to something	A31
+A9: nod head/bow	A35
+A10: falling down	A43
+A11: walking towards	A59
+A12: shoot at basket	A63
+A13: squat down		A80
+A14: capitulate		A95
+A15: cross arms		A96
+A16: arm circles	A97
+A17: arm swings		A98
+A18: run on the spot	A99
+A19: butt kicks	A100
+A20: cross toe touch	A101
+A21: side kick		A102
+A22: cheers and drink	A113
+

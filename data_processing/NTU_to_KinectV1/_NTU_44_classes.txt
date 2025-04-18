@@ -1,0 +1,44 @@
+A1: drink water	A1
+A2: pick up A6	
+A3: throw A7	
+A4: sit down A8	
+A5: clapping A10 	
+A6: reading A11		
+A7: put on jacket A14	
+A8: put on a shoe A16	
+A9: put on glasses A18		
+A10: hand waving A23	
+A11: kicking something A24   
+A12: reach into pocket A25	
+A13: hopping A26	
+A14: jump up A27	
+A15: point to something A31	  
+A16: check time (from watch) A33	
+A17: rub two hands A34	
+A18: nod head/bow A35	
+A19: shake head A36   
+A20: salute A38	
+A21: cross hands in front A40  
+A22: staggering A42	  
+A23: falling down A43 
+A24: punch/slap A50	  
+A25: pushing A52	
+A26: hugging A55	
+A27: shaking hands A58   
+A28: walking towards A59  
+A29: shoot at basket A63	
+A30: thumb up A69	
+A31: squat down A80   
+A32: toss a coin A81   
+A33: move heavy objects A92   
+A34: capitulate A95	   
+A35: cross arms A96    
+A36: arm circles A97	
+A37: arm swings A98	  
+A38: run on the spot A99	
+A39: butt kicks A100   
+A40: cross toe touch A101	 
+A41: side kick A102   	
+A42: grab stuff A109    	
+A43: cheers and drink A113	 
+A44: carry object A114     
