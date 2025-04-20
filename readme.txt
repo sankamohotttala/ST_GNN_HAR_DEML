@@ -1,0 +1,1 @@
+STGNN-Assistant.exe - codes are in C:\Users\sanka\Documents\new_exec\dist
