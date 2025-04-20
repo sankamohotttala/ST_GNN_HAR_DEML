@@ -1,4 +1,4 @@
-# ST_GNN_HAR_DEML
+Data-Efficient Spatio-Temporal Graph Neural Network based Child Action Recognition: A Systematic Analysis
 
 This repository contains TensorFlow-based **ST-GCN** code that can be used for **child action recognition**.  
 Pre-processed **CWBG datasets** are stored on Google Drive and can be accessed via the links provided below.
