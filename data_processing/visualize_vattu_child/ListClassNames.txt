@@ -1,0 +1,15 @@
+A1: angry like a bear
+A2: applaud
+A3: climb ladder 
+A4: crouch
+A5: draw circle
+A6: draw flower
+A7: draw square
+A8: fly like a bird 
+A9: hands up
+A10: jump
+A11: scratch like a cat
+A12: slice carrots
+A13: stand on one leg
+A14: throw ball 
+A15: turn around

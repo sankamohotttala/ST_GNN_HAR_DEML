@@ -1,0 +1,14 @@
+
+A2: applaud
+A3: climb ladder 
+A4: crouch
+
+A6: draw flower
+
+A8: fly like a bird 
+A9: hands up
+A10: jump
+
+A13: stand on one leg
+A14: throw ball 
+A15: turn around
