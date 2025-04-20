@@ -11,9 +11,42 @@ Some pre-processed **CWBG datasets** are stored on Google Drive and can be acces
 -  [Skeleton-Formatted CWBG Dataset](https://drive.google.com/drive/folders/1v1v1EP2NKSMPrzxHmH7CksS9r2Qu_OO2?usp=drive_link)  
   Includes pose-estimated skeleton data of children in `.npy` format ready to be used for model training.
 
-### ➤ Processed CWBG Dataset (All Protocols)
--  [Processed CWBG Dataset Folder](https://drive.google.com/drive/folders/1OnmErZipnys0SDTStwZgXB3eSRHH9ZKr?usp=sharing)  
-  This folder contains pre-processed datasets categorized under multiple evaluation protocols.
+---
+
+### Processed CWBG Dataset (All Protocols)
+
+- [Processed CWBG Dataset Folder](https://drive.google.com/drive/folders/1XlNMdLMFJkSPCTFSC03TsxNqXWrt-6bS?usp=sharing)  
+  This directory contains fully preprocessed data for all three evaluation protocols: **Cross-Subject**, **Random Split**, and **LOOCV**.
+
+Each folder within this dataset contains:
+
+- `.npy` files (e.g., `train_data_joint.npy`, `val_data_joint.npy`): These are the output of the `gen_joint_data.py` script, which parses raw skeleton text files, extracts 3D joint positions using `read_xyz()`, applies normalization (`pre_normalization()` from `preprocess.py`), and saves the data in a standardized format.
+  
+- `.pkl` files (e.g., `train_label.pkl`, `val_label.pkl`): Pickled Python lists containing sample names and their corresponding class labels.
+
+- `.tfrecord` files (e.g., `train_data-0.tfrecord`, ...): These are generated using `gen_tfrecord_data.py`, which converts `.npy` and `.pkl` files into TensorFlow’s efficient binary TFRecord format using serialized examples (`serialize_example()`).
+
+Below is the file structure for the preprocessing code directory:
+
+```
+data_processing/data_pre_processing/
+├── __init__.py
+├── gen_joint_data.py
+├── gen_joint_data_test.py
+├── gen_tfrecord_data.py
+├── preprocess.py
+├── preprocess_no_edit.py
+├── readme.txt
+├── rotation.py
+```
+
+Refer to the following scripts for details on the data pipeline:
+- `preprocess.py`: Skeleton alignment, padding, and canonicalization
+- `gen_joint_data.py`: Joint data extraction and preprocessing
+- `gen_tfrecord_data.py`: TFRecord conversion from `.npy` and `.pkl` formats
+- `rotation.py`: Utility functions for vector-based rotation and coordinate normalization
+
+This setup ensures efficient training and evaluation by standardizing the skeleton sequences and enabling high-performance data loading in TensorFlow.
 
 
 #### Cross-Subject Protocol
@@ -25,10 +58,13 @@ Some pre-processed **CWBG datasets** are stored on Google Drive and can be acces
 
 
 #### Random Split Protocol
-- Refer to `random/` folder inside results or the structure noted in `README_cwbg.md`.
+-  [Full Dataset Zip file](https://drive.google.com/file/d/1a80YigS6b1lG-uZIekOq1mr1o8_X7Xq6/view?usp=drive_link)  
+  This folder contains pre-processed datasets categorized under multiple evaluation protocols.
 
 ####  LOOCV Protocol
-- Refer to `loocv/` folder inside results or the structure noted in `README_cwbg.md`.
+-  [Full Dataset Zip file](https://drive.google.com/file/d/1NRsLw8au6o5YgO3lg9p09kj8TCWmjjyR/view?usp=drive_link)  
+  This folder contains pre-processed datasets categorized under multiple evaluation protocols.
+
 
 **Folder Structure:**
 ```
