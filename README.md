@@ -16,7 +16,6 @@ The work focuses on **child action recognition** using pose-based features extra
 
 CWBG dataset is under the `cwbg_dataset/` directory. This dataset is used for the in-the-lab experiments of child action recognition with ST-GNN models.
 
-### Directory Structure
 
 ```
 cwbg_dataset/
@@ -47,6 +46,35 @@ Each folder within this dataset contains:
 	- `.tfrecord` files (TensorFlow-compatible formats)
 
 ---
+
+### Data Protocols
+
+The CWBG dataset is organized into the following subsets:
+
+- **CWBG-Full**: Complete dataset with 1312 sequences across 15 classes.
+- **CWBG-Dissimilar**: 10-class subset with dissimilar actions.
+- **CWBG-Similar**: 10-class subset with visually similar actions.
+- **CWBG-Shared**: 5-class subset with overlapping actions.
+
+---
+
+### Evaluation Protocols
+
+#### Cross-Subject Protocol
+- Subjects 1–21 used for training; others for testing.
+- Follows the protocol style of NTU RGB+D for cross-subject generalization.
+
+#### Random Split Protocol
+- Data is randomly divided into training and validation sets with class balance.
+
+#### LOOCV Protocol
+- Each subject is left out once as the test set.
+- Ensures robustness across individual subject variations.
+
+Each protocol folder includes `.npy`, `.pkl`, and `.tfrecord` files, ready for use with the provided ST-GCN models. All CWBG protocol based implementation can be reproduced using these data.
+
+---
+
 ##  Data Pre-processing
 
 Below is the file structure for the preprocessing code directory:
@@ -71,47 +99,7 @@ Refer to the following scripts for details on the data pipeline:
 
 This setup ensures efficient training and evaluation by standardizing the skeleton sequences and enabling high-performance data loading in TensorFlow.
 
-
-#### Cross-Subject Protocol
-
-- [CWBG-Full](https://drive.google.com/drive/folders/1T9kgWkrNlrPm_eKbY3NfBXsGVLDdBPt-?usp=share_link): Contains the full dataset with 1312 skeleton sequences across 15 classes.
-- [CWBG-Dissimilar](https://drive.google.com/drive/folders/1TwUnf5G_4IhLIh04Q1vb-JGPt1G5Hfby?usp=share_link): Contains the CWBG Dissimilar subset with 10 classes.
-- [CWBG-Similar](https://drive.google.com/drive/folders/1RUymfektG0jyCCpRr5Mdw-eWt2Pcxzzt?usp=share_link): Contains the CWBG Similar subset with 10 classes.
-- [CWBG-Shared](https://drive.google.com/drive/folders/1RMKR7cxV7BTCTjUTBSTAhxwXscBHeFFB?usp=share_link): Contains the CWBG Shared subset with 5 classes.
-
-
-#### Random Split Protocol
--  [Full Dataset Zip file](https://drive.google.com/file/d/1a80YigS6b1lG-uZIekOq1mr1o8_X7Xq6/view?usp=drive_link)  
-  This folder contains pre-processed datasets categorized under multiple evaluation protocols.
-
-####  LOOCV Protocol
--  [Full Dataset Zip file](https://drive.google.com/file/d/1NRsLw8au6o5YgO3lg9p09kj8TCWmjjyR/view?usp=drive_link)  
-  This folder contains pre-processed datasets categorized under multiple evaluation protocols.
-
-
-**Folder Structure:**
-```
-Processed_CWBG_Dataset/
-├── Cross_Subject/
-│   ├── CWBG-Full/
-│   ├── CWBG-Dissimilar/
-│   ├── CWBG-Similar/
-│   └── CWBG-Shared/
-│
-├── Random_Split/
-│   ├── CWBG-Full/
-│   ├── CWBG-Dissimilar/
-│   ├── CWBG-Similar/
-│   └── CWBG-Shared/
-│
-└── LOOCV/
-    ├── CWBG-Full/
-    ├── CWBG-Dissimilar/
-    ├── CWBG-Similar/
-    └── CWBG-Shared/
-```
-
- For further protocol-specific details and implementation instructions, refer to:
+For further protocol-specific details and implementation instructions, refer to:
 - [`README_cwbg.md`](./README_cwbg.md)
 
 ---
