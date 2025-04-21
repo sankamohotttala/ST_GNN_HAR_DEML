@@ -1,35 +1,22 @@
 # Data-Efficient Spatio-Temporal Graph Neural Network based Child Action Recognition: A Systematic Analysis
 
-This repository contains TensorFlow-based implementations of **Spatio-Temporal Graph Neural Networks (ST-GNNs)** developed as part of the journal paper titled:
-
-> *"Data-Efficient Spatio-Temporal Graph Neural Network based Child Action Recognition: A Systematic Analysis"*
-
-The manuscript is currently under review at a Q1-ranked Elsevier journal. This repository includes the core model implementations, data preprocessing pipelines, the majority of experimental results, and detailed observations made by the researchers during experimentation. Additionally, many of the hyperparameter settings, pre-processed data under each protocol and the corresponding saved model weights are provided. Together, these resources are intended to facilitate full reproducibility of the results presented in the journal paper.
-
-The work focuses on **child action recognition** using pose-based features extracted from the **Child-Whole Body Gesture (CWBG)** dataset. The original CWBG dataset can be accessed via the official source:
-
-🔗 [CWBG Official Dataset Link](https://example.com/official-cwbg)
+This repository contains TensorFlow-based **ST-GNN** codes that can be used for **child action recognition**.  
+Some pre-processed **CWBG datasets** are stored on Google Drive and can be accessed via the links provided below.
 
 ---
 
 ##  CWBG Datasets
 
-CWBG dataset is under the `cwbg_dataset/` directory. This dataset is used for the in-the-lab experiments of child action recognition with ST-GNN models.
+### ➤ Skeleton-Formatted CWBG Dataset
+-  [Skeleton-Formatted CWBG Dataset](https://drive.google.com/drive/folders/1v1v1EP2NKSMPrzxHmH7CksS9r2Qu_OO2?usp=drive_link)  
+  Includes pose-estimated skeleton data of children in `.npy` format ready to be used for model training.
 
-### Directory Structure
+---
 
-```
-cwbg_dataset/
-├── skeleton format/
-│   ├── CWBG_skeleton_format.zip      # Raw skeleton data in .skeleton format
-│   └── S001C001P001R001A001.skeleton # Example skeleton file
-│
-└── final train-test split/
-    ├── cwbg_cross_subject.zip        # Cross-Subject protocol
-    ├── for_LOOCV.zip                 # Leave-One-Out Cross Validation (LOOCV) protocol
-    └── random_split.zip              # Random Split protocol
-```
+### Processed CWBG Dataset (All Protocols)
 
+- [Processed CWBG Dataset Folder](https://drive.google.com/drive/folders/1XlNMdLMFJkSPCTFSC03TsxNqXWrt-6bS?usp=sharing)  
+  This directory contains fully preprocessed data for all three evaluation protocols: **Cross-Subject**, **Random Split**, and **LOOCV**.
 
 Each folder within this dataset contains:
 
@@ -38,16 +25,6 @@ Each folder within this dataset contains:
 - `.pkl` files (e.g., `train_label.pkl`, `val_label.pkl`): Pickled Python lists containing sample names and their corresponding class labels.
 
 - `.tfrecord` files (e.g., `train_data-0.tfrecord`, ...): These are generated using `gen_tfrecord_data.py`, which converts `.npy` and `.pkl` files into TensorFlow’s efficient binary TFRecord format using serialized examples (`serialize_example()`).
-
-- `.pkl` files (e.g., `train_label.pkl`, `val_label.pkl`): Pickled Python lists containing sample names and their corresponding class labels.
-
-- `.skeleton` files (e.g., `S001C001P001R001A001.skeleton`): contains the NTU RGB+D dataset format converted version of the CWBG dataset. These `.skeleton` files are processed using scripts in `data_processing/data_pre_processing/` to produce:
-	- `.npy` files (joint arrays for model training)
-	- `.pkl` files (labels and metadata)
-	- `.tfrecord` files (TensorFlow-compatible formats)
-
----
-##  Data Pre-processing
 
 Below is the file structure for the preprocessing code directory:
 
