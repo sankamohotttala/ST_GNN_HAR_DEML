@@ -8,7 +8,7 @@ The manuscript is currently under review at a Q1-ranked Elsevier journal. This r
 
 The work focuses on **child action recognition** using pose-based features extracted from the **Child-Whole Body Gesture (CWBG)** dataset. The original CWBG dataset can be accessed via the official source:
 
-🔗 [CWBG Official Dataset Link](https://example.com/official-cwbg)
+🔗 [CWBG Official Dataset Link](http://www.eed.usv.ro/~vatavu/projects/DissimilarityConsensus/)
 
 ---
 
