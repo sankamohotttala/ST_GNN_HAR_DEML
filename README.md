@@ -6,7 +6,7 @@ This repository contains TensorFlow-based implementations of **Spatio-Temporal G
 
 The manuscript is currently under review at a Q1-ranked Elsevier journal. This repository includes the core model implementations, data preprocessing pipelines, the majority of experimental results, and detailed observations made by the researchers during experimentation. Additionally, many of the hyperparameter settings, pre-processed data under each protocol and the corresponding saved model weights are provided. Together, these resources are intended to facilitate full reproducibility of the results presented in the journal paper.
 
-<p align="center"> <img src="./miscellaneous/ga.png" alt="Graphical Abstract" width="700"/> </p>
+<p align="center"> <img src="./miscellaneous/ga.png" alt="Graphical Abstract" width="1000"/> </p>
 
 The work focuses on **child action recognition** using pose-based features extracted from the **Child-Whole Body Gesture (CWBG)** dataset. The original CWBG dataset can be accessed via the official source:
 
